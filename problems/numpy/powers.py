@@ -12,7 +12,11 @@ def powers(N, p):
 
     # YOUR CODE HERE
     # Replace None with an appropriate return value
-    return None
+    result = []
+    for num in range(N):
+        power = p ** num
+        result.append(power)
+    return result
 
 
 #############################################################
